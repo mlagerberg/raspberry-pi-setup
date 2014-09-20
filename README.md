@@ -16,10 +16,11 @@ Keep your monitor and keyboard attached to the Pi until you've done this part.
 
 1. [Before anything else][1.1]: making sure the entire SD card is used, update everything.
 2. [WiFi][1.2]
-3. Basic security: disable root over SSH, change default password, enable two-factor authentication.
+3. [Basic security][1.3]: disable root over SSH, change default password, enable two-factor authentication.
 
 [1.1]: ./1.1-before-anything-else.md
 [1.2]: ./1.2-wifi.md
+[1.3]: ./1.3-ssh.md
 
 ### 2. Security (coming soon)
 
