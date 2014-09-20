@@ -10,29 +10,32 @@ I'm assuming a freshly installed Raspbian image, although other Debian-based ver
 
 ## Table of Content
 
-### First things first
+### 1. First things first
 
 Keep your monitor and keyboard attached to the Pi until you've done this part.
 
-1. Before anything else: making sure the entire SD card is used, update everything.
-2. WiFi
+1. [Before anything else][1.1]: making sure the entire SD card is used, update everything.
+2. [WiFi][1.2]
 3. Basic security: disable root over SSH, change default password, enable two-factor authentication.
 
-### Security
+[1.1]: ./1.1-before-anything-else.md
+[1.2]: ./1.2-wifi.md
+
+### 2. Security (coming soon)
 
 Set up a firewall using iptables and automate blocking of suspicious activity using fail2ban.
 
 4. Security
 5. Remote desktop
 
-### Common requirements
+### 3. Common requirements (coming soon)
 
 6. Attach external hard-drive
 7. Periodic backups
 8. HDMI output
 9. Some useful commands
 
-### Specific apps
+### 4. Specific apps (coming soonish)
 
 This section will contain instructions on installing/building/configuring some specific apps, probably some of the following:
 
