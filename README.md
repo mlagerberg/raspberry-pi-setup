@@ -22,28 +22,35 @@ Keep your monitor and keyboard attached to the Pi until you've done this part.
 [1.2]: ./1.2-wifi.md
 [1.3]: ./1.3-ssh.md
 
-### 2. Security (coming soon)
+### 2. Network security
 
 Set up a firewall using iptables and automate blocking of suspicious activity using fail2ban.
 
-4. Security
-5. Remote desktop
+1. [Firewall][2.1] (iptables)
+2. [Auto-block login attempts][2.2] (fail2ban)
+3. [Two-factor authentication][2.3]
+4. [Other network security tools][2.4] (netstat, iftop)
+
+[2.1]: ./2.1-iptables.md
+[2.2]: ./2.2-fail2ban.md
+[2.3]: ./2.3-two-factor-authentication.md
+[2.4]: ./2.4-security-tools.md
 
 ### 3. Common requirements (coming soon)
 
-6. Attach external hard-drive
-7. Periodic backups
-8. HDMI output
-9. Some useful commands
+1. Remote desktop
+2. Attach external hard-drive
+3. Periodic backups
+4. HDMI output
+5. Some useful commands
 
 ### 4. Specific apps (coming soonish)
 
 This section will contain instructions on installing/building/configuring some specific apps, probably some of the following:
 
-10.  Bittorrent Sync?
-11.  Webcam + Motion?
-12.  Node?
-13.  Git?
-14.  Privoxy?
-15.  Python?
-
+1.  Bittorrent Sync?
+2.  Webcam + Motion?
+3.  Node.js?
+4.  Git?
+5.  Privoxy?
+6.  Python?
