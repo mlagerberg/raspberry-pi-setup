@@ -39,12 +39,13 @@ Set up a firewall using iptables and automate blocking of suspicious activity us
 ### 3. Common requirements (coming soon)
 
 1. [Remote desktop][3.1]
-2. Attach external hard-drive
+2. [External storage][3.2]: attach external NTFS drive to usb port, includes troubleshooting.
 3. Periodic backups
 4. HDMI output
 5. Some useful commands
  
 [3.1]: ./3.1-remote-desktop.md
+[3.2]: ./3.2-external-storage.md
 
 ### 4. Specific apps (coming soonish)
 
