@@ -40,12 +40,13 @@ Set up a firewall using iptables and automate blocking of suspicious activity us
 
 1. [Remote desktop][3.1]
 2. [External storage][3.2]: attach external NTFS drive to usb port, includes troubleshooting.
-3. Periodic backups
+3. [Periodic backups][3.2]: backup the entire SD card to external storage, and use cron.
 4. HDMI output
 5. Some useful commands
  
 [3.1]: ./3.1-remote-desktop.md
 [3.2]: ./3.2-external-storage.md
+[3.3]: ./3.3-periodic-backups.md
 
 ### 4. Specific apps (coming soonish)
 
