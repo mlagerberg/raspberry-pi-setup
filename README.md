@@ -36,17 +36,20 @@ Set up a firewall using iptables and automate blocking of suspicious activity us
 [2.3]: ./2.3-two-factor-authentication.md
 [2.4]: ./2.4-security-tools.md
 
+
 ### 3. Common requirements (coming soon)
 
 1. [Remote desktop][3.1]
 2. [External storage][3.2]: attach external NTFS drive to usb port, includes troubleshooting.
-3. [Periodic backups][3.2]: backup the entire SD card to external storage, and use cron.
-4. HDMI output
+3. [Periodic backups][3.3]: backup the entire SD card to external storage, and use cron.
+4. [HDMI output][3.4]: keep HDMI always on, disable screensaved, fix HDMI audio, boot to website in kiosk mode.
 5. Some useful commands
  
 [3.1]: ./3.1-remote-desktop.md
 [3.2]: ./3.2-external-storage.md
 [3.3]: ./3.3-periodic-backups.md
+[3.4]: ./3.4-HDMI-output.md
+
 
 ### 4. Specific apps (coming soonish)
 
@@ -57,4 +60,3 @@ This section will contain instructions on installing/building/configuring some s
 3.  Node.js?
 4.  Git?
 5.  Privoxy?
-6.  Python?
