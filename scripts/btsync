@@ -1,0 +1,48 @@
+#!/bin/sh
+#
+# /etc/init.d/btsync: Start the BTSync daemon
+#
+### BEGIN INIT INFO
+# Provides:		btsync
+# Required-Start:	$local_fs $remote_fs $syslog
+# Required-Stop:	$local_fs $remote_fs $syslog
+# Should-Start:		$network
+# Should-Stop:		$network
+# Default-Start:	2 3 4 5
+# Default-Stop:		0 1 6
+# Short-Description: 	Runs BTSync
+# Description:		Runs BitTorrent Sync
+### END INIT INFO
+
+start() {
+	echo "Starting BitTorrent Sync..."
+	sudo -u btsync /home/btsync/btsync --config /home/btsync/btsync.conf
+}
+
+stop() {
+	echo "Stopping BitTorrent Sync..."
+	killall btsync
+}
+
+case "$1" in
+	start)
+		start
+		;;
+	stop)
+		stop
+		;;
+	restart|reload|force-reload)
+		stop
+		sleep 5s
+		start
+		;;
+	status)
+		;;
+	*)
+		echo "Usage: "
+		echo "sudo /etc/init.d/btsync start|stop|restart"
+		exit 1
+		;;
+esac
+
+exit 0
