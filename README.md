@@ -57,10 +57,11 @@ Some common things to do with a Raspberry Pi.
 
 This section will contain instructions on installing/building/configuring some specific apps, probably some of the following:
 
-1.  [BitTorrent Sync][4.1]
-2.  Webcam + Motion?
+1.  [BitTorrent Sync][4.1]: self-hosted cloud storage
+2.  [Webcam + Motion][4.2]: security camera
 3.  Node.js?
 4.  Git?
 5.  Privoxy?
 
 [4.1]: ./4.1-btsync.md
+[4.2]: ./4.2-motion.md
