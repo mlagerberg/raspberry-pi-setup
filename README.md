@@ -53,15 +53,17 @@ Some common things to do with a Raspberry Pi.
 [3.4]: ./3.4-HDMI-output.md
 [3.5]: ./3.5-some-useful-commands.md
 
-### 4. Specific apps
+### 4. Specific apps and devices
 
 This section will contain instructions on installing/building/configuring some specific apps, probably some of the following:
 
 1. [BitTorrent Sync][4.1]: self-hosted cloud storage
 2. [Webcam + Motion][4.2]: security camera
 3. [Git][4.3]
-4. More coming soonish...
+4. [Bluetooth keyboard][4.4]
+5. More coming soonish...
 
 [4.1]: ./4.1-btsync.md
 [4.2]: ./4.2-motion.md
 [4.3]: ./4.3-git.md
+[4.4]: ./4.4-bluetooth-keyboard.md
