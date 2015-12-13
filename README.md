@@ -67,3 +67,13 @@ This section will contain instructions on installing/building/configuring some s
 [4.2]: ./4.2-motion.md
 [4.3]: ./4.3-git.md
 [4.4]: ./4.4-bluetooth-keyboard.md
+
+### 5. Controlling the RPi
+
+Information on controlling the Raspberry Pi's hardware features.
+
+1. [Minimize power consumption][5.1]
+2. [Control LEDs][5.2]
+
+[5.1]: ./5.1-power-consumption.md
+[5.2]: ./5.2-leds.md
