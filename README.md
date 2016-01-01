@@ -55,18 +55,21 @@ Some common things to do with a Raspberry Pi.
 
 ### 4. Specific apps and devices
 
-This section will contain instructions on installing/building/configuring some specific apps, probably some of the following:
+Instructions on installing/building/configuring some specific apps.
 
 1. [BitTorrent Sync][4.1]: self-hosted cloud storage
 2. [Webcam + Motion][4.2]: security camera
 3. [Git][4.3]
 4. [Bluetooth keyboard][4.4]
-5. More coming soonish...
+5. [Privoxy, OpenVPN][4.5]: proxy and vpn
+6. [gPhoto2][4.6]: control a usb-connected digital camera
 
 [4.1]: ./4.1-btsync.md
 [4.2]: ./4.2-motion.md
 [4.3]: ./4.3-git.md
 [4.4]: ./4.4-bluetooth-keyboard.md
+[4.5]: ./4.5-proxy-vpn.md
+[4.6]: ./4.6-gphoto2.md
 
 ### 5. Controlling the RPi
 
