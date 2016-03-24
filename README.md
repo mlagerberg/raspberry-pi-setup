@@ -15,7 +15,7 @@ I'm assuming a freshly installed Raspbian image, although other Debian-based ver
 Keep your monitor and keyboard attached to the Pi until you've done this part.
 
 1. [Before anything else][1.1]: making sure the entire SD card is used, update everything.
-2. [WiFi][1.2]
+2. [WiFi][1.2]: configure WiFi, set a static IP address, troubleshoot missing networks on the Pi 3.
 3. [Basic security][1.3]: disable root over SSH, change default password.
 
 [1.1]: ./1.1-before-anything-else.md
