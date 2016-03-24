@@ -2,6 +2,20 @@
 #
 # /etc/init.d/btsync: Start the BTSync daemon
 #
+# This shell script should be placed in /etc/init.d/.
+# It configures BitTorrent Sync as a background daemon on
+# systems with init.d as a daemon system. Make sure to edit
+# to your wishes before use.
+#
+# On systems using system.d intead (e.g. Raspbian since
+# version Jessie), use btsync.service instead of this file.
+#
+# To enable btsync to start on boot as a daemon:
+#		sudo update-rc.d btsync defaults
+# To start it:
+#		sudo service btsync start
+#
+#
 ### BEGIN INIT INFO
 # Provides:		btsync
 # Required-Start:	$local_fs $remote_fs $syslog
