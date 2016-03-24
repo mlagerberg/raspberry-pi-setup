@@ -1,4 +1,4 @@
-# This shell script should be placed in /usr/lib/systemd/system/.
+# This shell script should be placed in /etc/systemd/system/.
 # It configures BitTorrent Sync as a background daemon on
 # systems with systemd as a daemon system. Make sure to edit
 # to your wishes before use.
