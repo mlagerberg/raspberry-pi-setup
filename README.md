@@ -57,7 +57,7 @@ Some common things to do with a Raspberry Pi.
 
 Instructions on installing/building/configuring some specific apps.
 
-1. [BitTorrent Sync][4.1]: self-hosted cloud storage
+1. [Resilio Sync][4.1] (formerly BitTorrent Sync): self-hosted cloud storage
 2. [Webcam + Motion][4.2]: security camera
 3. [Git][4.3]
 4. [Bluetooth keyboard][4.4]
