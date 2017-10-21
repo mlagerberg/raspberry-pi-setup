@@ -5,12 +5,20 @@ Raspberry Pi Guide
 
 Disclaimer: I'm not a Raspberry Pi guru, or even someone who knows a lot about Linux in general, but when I got my Pi I had to figure out many things about both that would be a waste for any other non-guru to also figure out for themselves. So here they are, jotted down for your and my future reference.
 
-I'm assuming a freshly installed Raspbian image, although other Debian-based versions shouldn't be much different.
+I'm assuming a freshly installed **Raspbian** image, although other Debian-based versions shouldn't be much different.
 
 
 ## Table of Content
 
-### 1. First things first
+### 0. Preparation
+
+1. [Hardware][0.1]: know before you go
+2. [SD card][0.2]: prepare the SD card for 'headless' set-up (no display)
+
+[0.1]: ./0.1-hardware.md
+[0.2]: ./0.2-sd-card.md
+
+### 1. First boot
 
 Keep your monitor and keyboard attached to the Pi until you've done this part.
 
