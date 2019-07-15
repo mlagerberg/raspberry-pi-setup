@@ -59,7 +59,8 @@ Some common things to do with a Raspberry Pi.
 [3.2]: ./3.2-external-storage.md
 [3.3]: ./3.3-periodic-backups.md
 [3.4]: ./3.4-HDMI-output.md
-[3.5]: ./3.5-some-useful-commands.md
+[3.5]: ./3.5-analog-video-output.md
+[3.6]: ./3.6-some-useful-commands.md
 
 ### 4. Specific apps and devices
 
