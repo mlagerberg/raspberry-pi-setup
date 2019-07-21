@@ -53,7 +53,8 @@ Some common things to do with a Raspberry Pi.
 2. [External storage][3.2]: attach external NTFS drive to usb port, includes troubleshooting.
 3. [Periodic backups][3.3]: backup the entire SD card to external storage, and use cron.
 4. [HDMI output][3.4]: keep HDMI always on, disable screensaver, fix HDMI audio, boot to website in kiosk mode.
-5. [Some useful commands][3.5]
+5. [Analog video output][3.5]: Turn off HDMI, and use the analog video output instead.
+6. [Some useful commands][3.6]
  
 [3.1]: ./3.1-remote-desktop.md
 [3.2]: ./3.2-external-storage.md
