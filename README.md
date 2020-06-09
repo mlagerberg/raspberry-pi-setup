@@ -74,7 +74,7 @@ Instructions on installing/building/configuring some specific apps.
 5. [Privoxy, OpenVPN][4.5]: proxy and vpn
 6. [gPhoto2][4.6]: control a usb-connected digital camera
 
-[4.1]: ./4.1-btsync.md
+[4.1]: ./4.1-resilio-sync.md
 [4.2]: ./4.2-motion.md
 [4.3]: ./4.3-git.md
 [4.4]: ./4.4-bluetooth-keyboard.md
