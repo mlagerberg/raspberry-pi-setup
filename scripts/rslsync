@@ -1,41 +1,41 @@
 #!/bin/sh
 #
-# /etc/init.d/btsync: Start the BTSync daemon
+# /etc/init.d/rslsync: Start the rslsync daemon
 #
 # This shell script should be placed in /etc/init.d/.
-# It configures BitTorrent Sync as a background daemon on
+# It configures Resilio Sync as a background daemon on
 # systems with init.d as a daemon system. Make sure to edit
 # to your wishes before use.
 #
 # On systems using system.d intead (e.g. Raspbian since
-# version Jessie), use btsync.service instead of this file.
+# version Jessie), use rslsync.service instead of this file.
 #
-# To enable btsync to start on boot as a daemon:
-#		sudo update-rc.d btsync defaults
+# To enable rslsync to start on boot as a daemon:
+#		sudo update-rc.d rslsync defaults
 # To start it:
-#		sudo service btsync start
+#		sudo service rslsync start
 #
 #
 ### BEGIN INIT INFO
-# Provides:		btsync
+# Provides:			Resilio Sync
 # Required-Start:	$local_fs $remote_fs $syslog
 # Required-Stop:	$local_fs $remote_fs $syslog
 # Should-Start:		$network
 # Should-Stop:		$network
 # Default-Start:	2 3 4 5
 # Default-Stop:		0 1 6
-# Short-Description: 	Runs BTSync
-# Description:		Runs BitTorrent Sync
+# Short-Description: 	Runs rslsync
+# Description:		Runs Resilio Sync
 ### END INIT INFO
 
 start() {
-	echo "Starting BitTorrent Sync..."
-	sudo -u btsync /home/btsync/btsync --config /home/btsync/btsync.conf
+	echo "Starting Resilio Sync..."
+	sudo -u rslsync /home/rslsync/rslsync --config /home/rslsync/rslsync.conf
 }
 
 stop() {
-	echo "Stopping BitTorrent Sync..."
-	killall btsync
+	echo "Stopping Resilio Sync..."
+	killall rslsync
 }
 
 case "$1" in
@@ -54,7 +54,7 @@ case "$1" in
 		;;
 	*)
 		echo "Usage: "
-		echo "sudo /etc/init.d/btsync start|stop|restart"
+		echo "sudo /etc/init.d/rslsync start|stop|restart"
 		exit 1
 		;;
 esac

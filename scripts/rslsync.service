@@ -1,0 +1,26 @@
+# This shell script should be placed in /etc/systemd/system/.
+# It configures Resilio Sync as a background daemon on
+# systems with systemd as a daemon system. Make sure to edit
+# to your wishes before use.
+#
+# On systems using init.d intead (e.g. Raspbian before
+# version Jessie), use `rslsync` instead of this file.
+#
+# To enable rslsync to start on boot as a daemon:
+#		sudo systemctl enable rslsync
+# To start it:
+#		sudo systemctl start rslsync
+
+[Unit]
+Description=Resilio Sync
+After=network.target
+ 
+[Service]
+Type=forking
+User=rslsync
+PIDFile=/home/rslsync/rslsync.pid
+ExecStart=/home/rslsync/rslsync --config /home/rslsync/rslsync.conf
+ExecStop=kill `cat /home/rslsync/rslsync.pid`
+ 
+[Install]
+WantedBy=multi-user.target
